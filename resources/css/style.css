@@ -196,3 +196,122 @@ h3{
     opacity: 1;
 }
 
+/* =====================
+   ROW & GRID
+===================== */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;  
+    text-align: center;   
+    justify-content: center; /* vertical centering */
+    margin-bottom:30px;
+}
+
+/* columns */
+.col {
+    padding: 0 3%;
+}
+
+.span-1-of-2 {
+    width: 50%;
+}
+
+/* =====================
+   STEPS SECTION
+===================== */
+.section-steps {
+    padding: 80px 0;
+    background-color: #fff;
+}
+.section-steps h2{
+    text-align: center;
+}
+
+/* LEFT SIDE (PHONE) */
+.steps-box:first-child {
+    text-align: center;
+    padding-right:3%;
+    margin-top:30px;
+}
+
+.steps-box img {
+    width: 40%;
+    box-shadow:10px 10px 5px #aaaaaa;
+}
+
+/* RIGHT SIDE (TEXT) */
+.steps-box:last-child {
+    padding-left: 20px;
+}
+
+/* =====================
+   STEPS
+===================== */
+.works-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-right:25px;
+}
+
+.works-step div {
+    width: 55px;
+    height: 55px;
+
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+
+    color: #e67e22;
+    font-size: 150%;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
+}
+
+.works-step p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* =====================
+   APP BUTTONS
+===================== */
+.btn-app img {
+    height: 50px;
+    width:auto;
+    margin-right: 10px;
+}
+
+/* =====================
+   RESPONSIVE (MOBILE)
+===================== */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .span-1-of-2 {
+        width: 100%;
+    }
+
+    .works-step {
+        justify-content: center;
+    }
+
+    .works-step div {
+        margin-right: 15px;
+
+    }
+
+    .steps-box img {
+        width: 55%;
+        margin-bottom: 40px;
+    }
+}
