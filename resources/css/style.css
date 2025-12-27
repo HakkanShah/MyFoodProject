@@ -195,7 +195,14 @@ h3{
     transform: scale(1.03);
     opacity: 1;
 }
-
+.clear-fix{zoom:1}
+.clear-fix::after{
+    content:'.';
+    display: block;
+    height:0;
+    visibility: hidden;
+    clear:both;
+}
 /* =====================
    ROW & GRID
 ===================== */
@@ -238,7 +245,8 @@ h3{
 
 .steps-box img {
     width: 40%;
-    box-shadow:10px 10px 5px #aaaaaa;
+    /* box-shadow:10px 10px 5px #aaaaaa; */
+    border-radius: 9%;
 }
 
 /* RIGHT SIDE (TEXT) */
@@ -252,26 +260,27 @@ h3{
 .works-step {
     display: flex;
     align-items: center;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
     margin-right:25px;
 }
 
 .works-step div {
     width: 55px;
     height: 55px;
-
     border: 2px solid #e67e22;
     border-radius: 50%;
-
     color: #e67e22;
     font-size: 150%;
     font-weight: bold;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-right: 20px;
+    float:left;
+
+}
+.works-step:last-of-type{
+    margin-bottom:80px;
 }
 
 .works-step p {
