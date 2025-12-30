@@ -4,17 +4,16 @@
 } */
 
 /* ===== ROW GRID ===== */
-.section-features .row:last-child {
+/* .section-features .row:last-child {
     display: grid;
     grid-template-columns: repeat(4, 23.8%);
     justify-content: space-between; /* creates equal gaps */
-    gap: 0; /* optional */
-}
+    /* gap: 0; optional */
 
 /* ===== COLUMN STYLE ===== */
-.section-features .col {
+/* .section-features .col {
     box-sizing: border-box;
-}
+} */
 
 /* ===== TEXT STYLING (optional but recommended) ===== */
 /* .section-features h2 {
@@ -29,7 +28,7 @@
     line-height: 1.6;
 } */
 
-.section-features h3 {
+/* .section-features h3 {
     margin-bottom: 15px;
     font-size: 18px;
 }
@@ -37,4 +36,4 @@
 .section-features p {
     font-size: 15px;
     line-height: 1.6;
-}
+} */
