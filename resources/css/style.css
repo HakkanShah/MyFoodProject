@@ -77,8 +77,8 @@ h1{
     width:auto;
     float:left;
     border-radius: 50%;
-    /* background-size: cover;
-    background-position: center; */
+    background-size: cover;
+    background-position: center;
     margin-top:20px;
 }
 .main-nav{
@@ -152,10 +152,7 @@ h3{
     margin-bottom:10px;
 }
 
-/* SECTION */
-.section-meals {
-    padding: 0;
-}
+
 
 /* GRID */
 .meals-showcase {
@@ -327,3 +324,26 @@ h3{
 .section-steps{
     background-color: #f4f4f4;
 }
+.span-1-of-4 img{
+    width:100%;
+    height:200px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.city-feature{
+    margin-bottom: 5px;
+}
+.icon-small{
+    display: inline-block;
+    /* justify-content: flex-start; */
+    width:30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top:-5px ;
+    margin-right: 10px;
+} */
