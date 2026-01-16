@@ -318,12 +318,37 @@ a:active{
     background-attachment: fixed;
     margin-top: 70px;
 }
-.testimonials {
-    width: 1140px;               /* same as your row width */
-    margin: 0 auto;
+.row{
+    max-width:1140px;
+    margin:0 auto;
+    padding:20px;
+}
+.testomonial-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 40px;
 }
+
+.testomonial-grid blockquote {
+    margin: 0;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.testomonial-grid cite {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.testomonial-grid cite img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
 
 
