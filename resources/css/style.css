@@ -312,12 +312,15 @@ a:active{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.8),
         rgba(0, 0, 0, 0.8)
-    ), url("resources/img/background-custo.webp");
+    ), url("../img/custo.avif");
+
     background-size: cover;
+    background-position: center;
     color: #fff;
     background-attachment: fixed;
     margin-top: 70px;
 }
+
 .row{
     max-width:1140px;
     margin:0 auto;
