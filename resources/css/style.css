@@ -367,6 +367,8 @@ blockquote:before{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:40px;
+    max-width: 1140px;
+    margin:0 auto;
 }
 .section-plans{
     background-color: #f4f4f4;
@@ -374,9 +376,62 @@ blockquote:before{
 .plan-box{
     background-color: #fff;
     border-radius: 5px;
-    width:90%
+    overflow: hidden;
+    /* width:90%; */
+    /* margin-left:5%; */
+    display: flex;
+    flex-direction: column;
+}
+.plan-box div{
+    padding:20px;
+    border-bottom:1px solid #e8e8e8;
+}
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+    line-height:1.1;
+}
+.plan-price-meal{
+    font-style: 80%;
+    color: #888;
+    min-height: 1.4em;
+}
+.plan-price span{
+    display: block;
+    font-size: 30%;
+    font-weight: 300;
+}
+.plan-box ul{
+    list-style:none;
+
+}
+.plan-box ul li{
+    padding:5px 0;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding:6px 0;
+    line-height: 1.2;
+}
+.plan-box ul li ion-icon {
+    font-size: 18px;
+    min-width: 18px;
 }
 
+.plan-box div:last-child{
+    border-bottom: none;
+    text-align: center;
+    margin-top: auto;
+    text-align: center;
+}
+.plan-box div:first-child{
+    min-height:170px;
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
 
 
