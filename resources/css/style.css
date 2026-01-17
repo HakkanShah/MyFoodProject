@@ -493,6 +493,10 @@ input[type="submit"] {
 input[type="submit"] :hover{
     background-color: #cf6d17;
 }
+.footer-nav-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 
 
 
