@@ -432,6 +432,65 @@ blockquote:before{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+/* .label-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.input-section{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+} */
+ .section-form {
+    padding: 60px 0;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    font-size: 16px;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 25px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
 
 
 
