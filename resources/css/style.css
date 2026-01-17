@@ -495,7 +495,7 @@ input[type="submit"] :hover{
 }
 .footer-nav-section{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 1fr;
 }
 
 
