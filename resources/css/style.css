@@ -375,8 +375,7 @@ blockquote:before{
     background-color: #fff;
     border-radius: 5px;
     overflow: hidden;
-    /* width:90%; */
-    /* margin-left:5%; */
+    
     display: flex;
     flex-direction: column;
 }
