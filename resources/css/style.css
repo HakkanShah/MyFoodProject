@@ -205,7 +205,7 @@ h3{
     visibility:hidden;
 }
 
-/* hover effect */ 
+
 .meal-photo img:hover {
     transform: scale(1.05);
     opacity: 1;
