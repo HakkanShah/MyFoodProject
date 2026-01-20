@@ -191,7 +191,7 @@ h3{
 .meal-photo img {
     width: 100%;
     height: 100%;
-    object-fit: cover;      /* 🔥 MAIN FIX */
+    object-fit: cover;     
     display: block;
     opacity: 0.8;
     transition: transform 0.4s, opacity 0.4s;
