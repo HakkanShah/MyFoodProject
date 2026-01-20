@@ -211,12 +211,7 @@ h3{
     opacity: 1;
 }
 
-/* .steps-box{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    align-items: center;
-    column-gap: 60px;
-} */
+
 
 .section-steps .row:nth-child(2) {
     display: grid;
